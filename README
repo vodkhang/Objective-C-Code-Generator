@@ -1,4 +1,4 @@
-This is my new generation script, mainly copied from <a href='https://github.com/CraigWilliams/create_property_synthensize_dealloc'>CraigWilliams</a>
+This is my new generation script, mainly copied from https://github.com/CraigWilliams/create_property_synthensize_dealloc 
 with some improvements to meet my needs:
 
 - Change the dealloc to [self.variable release] instead of [self.variable dealloc];
