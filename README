@@ -1,0 +1,5 @@
+This is my new generation script, mainly copied from here with some improvements to meet my needs:
+
+- Change the dealloc to [self.variable release] instead of [self.variable dealloc];
+- Change the @outlet variable to check for the "UI" prefix rather than letting it put IBOutlet everywhere or I have to use 2 scripts at the same time.
+- Add some of my own into the assign list
